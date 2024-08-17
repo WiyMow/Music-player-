@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <div class="container">
+        <div class="music-player">
+            <nav>
+                <div class="circle">
+                    <p class="fa-solid fa-angle-left"><</p>
+
+                </div>
+                <div class="circle">
+                    <p class="fa-solid fa-bars">=</p>
+                    
+                </div>
+            </nav>
+            <img src="media/pics/117450.png" class="song-img" width="250px" height="250px">
+        <h1>Uptown_Funk</h1>
+        <p>Mark_Ronson ft._Bruno_Mars</p>
+         <audio id="song" > 
+            <source src="media/Audio file/Mark_Ronson_-_Uptown_Funk__Lyrics__ft._Bruno_Mars(720p).m4a" type="audio/mpeg">
+        </audio>
+        <input type="range" value="0" id="progress">
+
+<div class="controls">
+    <div><a href="nu3.html"><p class="fa-solid fa-backward">Pre</p></a></div>
+    <div onclick="PlayPause()"><p class="fa-solid fa-play" id="ctrlIcon">PLAY</p></div>
+    <div><a href="nu1.html"><p class="fa-solid fa-forward">Nex</p></a></div>
+</div>
+
+    </div>
+    </div>
+    <script src="code.js"></script>
+</body>
+</html>
